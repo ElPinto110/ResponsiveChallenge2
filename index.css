@@ -115,6 +115,9 @@ img {
         width: 100%;
         margin-left: 0px;
     }
+    img {
+        width: 50px;
+    }
     .message {
         padding: 0px;
     }
