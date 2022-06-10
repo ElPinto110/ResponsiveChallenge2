@@ -1,0 +1,165 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(179, 177, 177, 0.349);
+}
+header {
+    width: 55%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+}
+header h1{
+    width: 45%;
+    margin-left: 30px ;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.message{
+    width: 34.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 8px;
+}
+.message p{
+    width: 18rem;
+}
+.galery {
+    width: 51.1%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.fichau1 {
+    display: flex;
+    width: 30%;
+    height: 220px;
+}
+.fichad2 {
+    width: 30%;
+    height: 220px;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+}
+.fichau3 {
+    display: flex;
+    width: 30%;
+    height: 220px;
+    justify-content: end;
+}
+.fichau4 {
+    display: flex;
+    width: 30%;
+    height: 220px;
+}
+.fichad5 {
+    width: 30%;
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.fichau6 {
+    width: 30%;
+    height: 220px;
+    display: flex;
+    justify-content: end;
+}
+.img-box {  
+    display: flex;
+    flex-direction: row; 
+}
+img {
+    width: 120px;
+    height: 160px;
+    border: 5px rgba(69, 180, 255, 0.753) solid;
+    padding: 5px;
+    background-color: white;
+}
+.img-container {
+    display: flex;
+    flex-direction: column;
+}
+.text-v{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+}
+.img-container b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+.creator {
+    text-align: center;
+    color: gray;
+    align-content: flex-end;
+}
+@media (max-width: 800px){
+    body {
+        justify-content: space-between;
+    }
+    header {
+        justify-content: start;
+        width: 91%;
+    }
+    header h1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .message {
+        padding: 0px;
+    }
+    .galery {
+        display: flex;
+        width: 90%;
+        height: 700px;
+        justify-content: space-between;
+    }
+    .fichau1 {
+        width: 42%;
+        height: 220px;
+        display: flex;
+    }
+    .fichad2 {
+        width: 42%;
+        height: 220px;
+        display: flex; 
+        align-items: flex-end;
+        justify-content: end;
+    }
+    .fichau3 {
+        width: 42%;
+        height: 220px;
+        display: flex;
+        justify-content: start;
+    }
+    .fichau4 {
+        width: 42%;
+        height: 220px;
+        display: flex; 
+        align-items: flex-end;
+        justify-content: end;
+    }
+    .fichad5 {
+        width: 42%;
+        height: 220px;
+        display: flex;
+        justify-content: start;
+    }
+    .fichau6 {
+        width: 42%;
+        height: 220px;
+        display: flex; 
+        align-items: flex-end;
+        justify-content: end;
+    }
+}
